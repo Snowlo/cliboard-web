@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+ /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./*.html'],
   theme: {
@@ -16,7 +16,11 @@ module.exports = {
         grayishBlue: "hsl(201, 11%, 66%)",
       },
       fontFamily: {
-        sans: ["Bai Jamjuree", "sans-serig"],
+        sans: ["Josefin Sans", "sans-serif"],
+        alata: ["Alata"],
+      },
+      letterSpacing: {
+        widest: ".3em",
       }
     },
   },
